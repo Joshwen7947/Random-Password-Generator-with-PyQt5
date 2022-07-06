@@ -56,14 +56,6 @@ class App(QWidget):
             print(f'\t{self.passwords}')
         
 
-# def button(self):
-#     btn = QPushButton("Generate")
-#     self.vbox.addWidget(QLabel(f'{self.passwords}', alignment=Qt.AlignCenter))
-#     self.vbox.addWidget(btn,alignment=Qt.alignCenter)
-#     self.setLayout(self.vbox)
-
-
-# button.clicked.connect()
 
 def main():
     app = QApplication(sys.argv)
